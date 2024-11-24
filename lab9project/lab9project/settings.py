@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "lab9app",
     "django_bootstrap5",
-    'mathfilters',
+    # 'mathfilters',
 ]
 
 MIDDLEWARE = [

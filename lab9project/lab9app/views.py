@@ -472,7 +472,7 @@ def order_history(request):
             'payment_id': payment.payment_id if payment else 'N/A',
             'total_amount': payment.total_amount if payment else 0,
             'bank_account': customer.bank_account if customer else 'N/A',
-            'delivery_id': delivery.delivery_id,
+            'delivery_id': delivery.delivery_id if delivery else 'N/A',
             'delivery_address': delivery.delivery_address if delivery else 'N/A',
             'delivery_method': delivery.delivery_method if delivery else 'N/A',
         })
