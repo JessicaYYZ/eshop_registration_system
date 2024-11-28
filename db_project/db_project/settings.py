@@ -86,9 +86,9 @@ if os.getenv('GAE_APPLICATION', None):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/db-group9:us-west1:project-instance',
+            'HOST': '/cloudsql/*****',
             'USER': 'root',
-            'PASSWORD': '24fallDatabaseLee',
+            'PASSWORD': '*****',
             'NAME': 'eshop_db',
         }
     }
@@ -98,8 +98,8 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'eshop_db',
             'USER': 'root',
-            'PASSWORD': '24fallDatabaseLee',
-            'HOST': '34.105.38.222',
+            'PASSWORD': '*****',
+            'HOST': '*****',
             'PORT': '3306'
         }
     }
