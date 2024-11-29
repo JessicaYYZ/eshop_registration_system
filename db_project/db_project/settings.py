@@ -23,7 +23,7 @@ CORS_ALLOWED_ORIGINS = [
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-%6@d3w7#1_%$^v)=hm*=#6(_blow+n2(vysyp95*l9!=*kl)6l"
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
